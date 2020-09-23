@@ -1,0 +1,106 @@
+[Root]
+Most Recent Package=Standard
+
+
+[Package|Standard|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\Editor
+
+[Package|Standard|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard|Files Found]
+
+[Package|Standard|Files Released]
+
+[Package|Standard|Missing Dependency Information]
+
+[Package|Standard|Out-of-Date Dependency Information]
+
+[Package|Standard|Files Added]
+
+[Package|Standard|Files Removed]
+
+[Package|Standard|Files In Project]
+C:\Dokumente und Einstellungen\Günther\Eigene Dateien\Editor\Ascii-Editor.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6DE.DLL=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\RCHTXDE.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\CMDLGDE.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCDE.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard|Configure Registry Files]
+Applicable=No
+
+[Package|Standard|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard|Install Locations]
+C:\Dokumente und Einstellungen\Günther\Eigene Dateien\Editor\Ascii-Editor.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6DE.DLL=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\RCHTXDE.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGDE.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCDE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard|Configure Shared Files]
+Applicable=Yes
+C:\Dokumente und Einstellungen\Günther\Eigene Dateien\Editor\Ascii-Editor.exe=No
+
+[Package|Standard|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Ascii-Editor by VBRC
+
+[Package|Standard|IconGroups]
+Group0=Ascii-Editor
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard|Ascii-Editor]
+Icon1=Ascii-Editor.exe
+Title1=Ascii-Editor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard|Package]
+PackageFolder=e:\Editor
+ProjectFolder=C:\Dokumente und Einstellungen\Günther\Eigene Dateien\Editor
+ServerSideCab=
+File1=e:\Editor\setup.exe
+File2=e:\Editor\Setup.Lst
+File3=e:\Editor\Ascii-1.CAB
+File4=e:\Editor\Ascii-2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
